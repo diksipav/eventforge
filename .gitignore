@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment files: they contain secrets
+.env
+.env.*
+!.env.example
+
+# Test coverage output
+coverage/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

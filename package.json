@@ -1,0 +1,27 @@
+{
+  "name": "eventforge",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Dijana Pavlovic",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "test": "node --test",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check",
+    "lint:fix": "biome check --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.14",
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  }
+}
